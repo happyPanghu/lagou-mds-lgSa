@@ -4,7 +4,8 @@
   "description": "mds埋点日志上报",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup ./lib/index.js -o ./dist/index.js -f umd"
   },
   "keywords": [
     "埋点",
@@ -12,5 +13,12 @@
   ],
   "author": "lisen",
   "license": "ISC",
-  "file": ["dist", "lib", "index.js"]
+  "file": [
+    "dist",
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {
+    "rollup": "^1.10.0"
+  }
 }
