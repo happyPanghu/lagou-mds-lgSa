@@ -1,5 +1,5 @@
 {
-  "name": "lagou-mds-lgsa",
+  "name": "lagou-mds-log-lgsa",
   "version": "1.0.0",
   "description": "mds埋点日志上报",
   "main": "index.js",
