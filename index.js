@@ -1,4 +1,1 @@
-import { lgSa } from './dist/';
-module.exports={
-    lgSa
-};
+module.exports = require('./dist/');
