@@ -1,6 +1,6 @@
 {
   "name": "lagou-mds-lgsa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mds埋点日志上报",
   "main": "index.js",
   "scripts": {
